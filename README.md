@@ -58,8 +58,8 @@ The result is displayed in a stunning **glassmorphic Streamlit UI** with PDF exp
 ### Step 1 — Clone the Repository
 
 ```bash
-git clone https://github.com/vashuvermamarch/AreoPlan-AI.git
-cd AreoPlan-AI
+git clone https://github.com/vashuvermamarch/AeroPlan-AI.git
+cd AeroPlan-AI
 ```
 
 ---
