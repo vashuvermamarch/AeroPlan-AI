@@ -1,0 +1,104 @@
+# ─────────────────────────────────────────────
+#  AeroPlan AI – .gitignore
+# ─────────────────────────────────────────────
+
+# ── Environment & Secrets ────────────────────
+.env
+.env.*
+*.pem
+*.key
+secrets.toml
+
+# ── Python ───────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual Environments ─────────────────────
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# ── Distribution / Build ─────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+wheels/
+
+# ── Testing & Coverage ───────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+*.coveragerc
+.tox/
+nosetests.xml
+coverage.xml
+
+# ── Linting & Type Checking ──────────────────
+.mypy_cache/
+.ruff_cache/
+.pytype/
+
+# ── Streamlit ────────────────────────────────
+.streamlit/secrets.toml
+
+# ── Jupyter Notebooks ────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── IDEs & Editors ───────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# ── OS Files ─────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ── Logs & Databases ─────────────────────────
+*.log
+*.sqlite
+*.sqlite3
+*.db
+logs/
+chroma_db/
+langgraph.db
+
+# ── Temporary / Scratch files ─────────────────
+*.tmp
+*.bak
+*.orig
+temp/
+tmp/
+scratch/
+
+# ── Generated HTML dumps (debug artifacts) ───
+dribbble.html
+dribbble_dom.html
+dribbble_dom_resolved.html
+
+# ── PDF outputs ───────────────────────────────
+*.pdf
+
+# ── Node (if any JS tooling added later) ─────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ── Docker ───────────────────────────────────
+.dockerignore
+docker-compose.override.yml
